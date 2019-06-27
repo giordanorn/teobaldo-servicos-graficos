@@ -1,0 +1,9 @@
+zone "teobaldo.net" {
+	type master;
+	file "/etc/bind/zones/db.teobaldo.net";
+};
+
+zone "102.7.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.10.7.102";
+};
